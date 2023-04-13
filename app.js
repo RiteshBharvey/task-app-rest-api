@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cookiesParser());
 app.use(
   cors({
-    origin:"http://localhost:3000",
+    origin:["http://localhost:3000","https://lucent-kheer-3d64c4.netlify.app"]
     credentials:true
   })
 );
