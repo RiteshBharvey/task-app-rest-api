@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cookiesParser());
 app.use(
   cors({
-    origin:["https://643903277ce8f6252f29f57f--silly-hotteok-7b0c64.netlify.app"],
+    origin:[https://task-react-app-web.netlify.app"],
     credentials:true
   })
 );
