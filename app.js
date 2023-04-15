@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cookiesParser());
 app.use(
   cors({
-    origin:[https://task-react-app-web.netlify.app"],
+    origin:["https://task-react-app-web.netlify.app"],
     credentials:true
   })
 );
